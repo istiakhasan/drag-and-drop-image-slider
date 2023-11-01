@@ -69,8 +69,7 @@ const handleDragAndDrop = (results) => {
            
             <Droppable className="gallery_wraper"  droppableId="ROOT" type="group">
               {(provided) => (
-                <div
-                //   
+                <div 
                   {...provided.droppableProps}
                   ref={provided.innerRef}
                 >

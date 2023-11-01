@@ -5,6 +5,7 @@ import { handleMove } from '../utils/utils';
   
     return (
       <div className="gallery_wraper">
+        {/* all images  */}
         {images.map((item, index) => (
           <Image
             key={item.id}
@@ -18,6 +19,7 @@ import { handleMove } from '../utils/utils';
             cart={cart}
           />
         ))}
+        {/* image upload  */}
         <label 
           htmlFor="file_upload"
           style={{

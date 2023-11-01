@@ -7,7 +7,7 @@ const ResponsiveImageGallery = () => {
   const [images, setImages] = useState(DATA);
   const [cart, setCart] = useState([]);
   return (
-    <div className="container  px-5 py-3">
+    <div className="container  px-lg-5 px-2 py-3">
       <div className="image_gallary_container">
         <div className="d-flex justify-content-between align-items-center px-4 py-3">
           {!cart?.length > 0 ? (
@@ -17,7 +17,8 @@ const ResponsiveImageGallery = () => {
               {cart.length} {cart.length > 1 ? "Files" : "File"} Selected
             </h4>
           )}
-
+          {/* delete selected images */}
+             
           {cart?.length > 0 && (
             <h6
               onClick={() => {
