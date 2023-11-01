@@ -1,4 +1,4 @@
 ### Deployment
 
-Live Server Is here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Live Server Is here: [https://drag-and-drop-image-slider.netlify.app/](https://drag-and-drop-image-slider.netlify.app/)
 
